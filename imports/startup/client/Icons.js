@@ -4,8 +4,6 @@
 
 import { colors } from '../../ui/styling/colors';
 
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 
@@ -14,15 +12,12 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 const replaceSuffixPattern = /--(active|big|small|very-big)/g;
 const icons = {
 
-
-  "bars": [25, colors.primaryIconColor, FontAwesome],
-  "chevron-left": [25, "crimson", FontAwesome],
-  "ios-settings": [25, colors.primaryIconColor, Ionicons],
-  "times": [25, colors.primaryIconColor, FontAwesome],
+  "home": [30, colors.primaryIconColor, MaterialIcons],
   "menu": [30, colors.primaryIconColor, MaterialIcons],
+  "local-pizza": [30, colors.primaryIconColor, MaterialIcons],
 }
 
-const defaultIconProvider = Ionicons;
+const defaultIconProvider = MaterialIcons;
 
 let iconsMap = {};
 let iconsLoaded = new Promise((resolve, reject) => {

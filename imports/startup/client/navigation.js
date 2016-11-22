@@ -17,7 +17,7 @@ export function startApp() {
         screen: 'FirstTabScreen',
         title: 'Screen 1',
         label: 'One',
-        icon: iconsMap['ios-settings'],
+        icon: iconsMap['home'],
         disableIconTint: true,
         navigatorButtons: {
           leftButtons: [
@@ -60,7 +60,7 @@ export function startApp() {
         screen: 'ThirdTabScreen',
         title: 'Screen 3',
         label: 'Three',
-        icon: iconsMap['chevron-left'],
+        icon: iconsMap['local-pizza'],
         navigatorStyle: {
           navBarBackgroundColor: colors.primaryBackgroundColor,
           navBarTextColor: colors.primaryTextColor,
